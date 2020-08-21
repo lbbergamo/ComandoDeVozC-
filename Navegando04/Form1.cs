@@ -11,7 +11,6 @@ using System.Speech.Synthesis;
 using Microsoft.Speech.Recognition;
 using System.Globalization;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Navegando04
 {
@@ -22,12 +21,11 @@ namespace Navegando04
             InitializeComponent();
         }
 
-
         static CultureInfo ci = new CultureInfo("pt-BR");// linguagem utilizada
         static SpeechRecognitionEngine reconhecedor; // reconhecedor de voz
         SpeechSynthesizer resposta = new SpeechSynthesizer();// sintetizador de voz
 
-        public string[] listaPalavras = { "proximo","anterior","fechar" };
+        public string[] listaPalavras = { "proximo","anterior","fechar","ultimo","primeiro"};
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -35,7 +33,6 @@ namespace Navegando04
             this.tabLivroTableAdapter.Fill(this.bDLivrosDataSet.TabLivro);
             // TODO: esta linha de código carrega dados na tabela 'bDLivrosDataSet.TabLivro'. Você pode movê-la ou removê-la conforme necessário.
             this.tabLivroTableAdapter.Fill(this.bDLivrosDataSet.TabLivro);
-
             Init();
         }
         public void Init()
@@ -60,20 +57,31 @@ namespace Navegando04
                 resposta.SpeakAsync("O comando funcionou");
             }
 
+            if (frase.Equals("ultimo"))
+            {
+                bindingNavigatorMoveLastItem.PerformClick();
+                resposta.SpeakAsync("O comando funcionou");
+            }
+
+            if (frase.Equals("primeiro"))
+            {
+                bindingNavigatorMoveFirstItem.PerformClick();
+                resposta.SpeakAsync("O comando funcionou");
+            }
             if (frase.Equals("fechar"))
             {
                 resposta.SpeakAsync("Até mais");
-                Thread.Sleep(3000);
+
+                Thread.Sleep(000);
                 Close();
             }
-
-
         }
 
         public void Gramatica()
         {
             try
             {
+                //reconhecedor = new SpeechRecognitionEngine(new System.Globalization.CultureInfo("en-us"));
                 reconhecedor = new SpeechRecognitionEngine(ci);
             }
             catch (Exception ex)
