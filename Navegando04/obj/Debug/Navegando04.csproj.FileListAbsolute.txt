@@ -22,3 +22,16 @@ C:\Users\leand\Desktop\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\
 C:\Users\leand\Desktop\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.csproj.CopyComplete
 C:\Users\leand\Desktop\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.exe
 C:\Users\leand\Desktop\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.pdb
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\bin\Debug\BDLivros.mdb
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\bin\Debug\Navegando04.exe.config
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\bin\Debug\Navegando04.exe
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\bin\Debug\Navegando04.pdb
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\bin\Debug\Microsoft.Speech.dll
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.csprojAssemblyReference.cache
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.Form1.resources
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.Properties.Resources.resources
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.csproj.GenerateResource.cache
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.csproj.CoreCompileInputs.cache
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.csproj.CopyComplete
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.exe
+C:\Users\leand\OneDrive\Área de Trabalho\Faculdade\Linguagem de Programação 4\GIT\Desafio\Navegando04\obj\Debug\Navegando04.pdb

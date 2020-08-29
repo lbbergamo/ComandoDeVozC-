@@ -70,50 +70,45 @@
             // codigoLabel
             // 
             codigoLabel.AutoSize = true;
-            codigoLabel.Location = new System.Drawing.Point(52, 94);
-            codigoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            codigoLabel.Location = new System.Drawing.Point(39, 76);
             codigoLabel.Name = "codigoLabel";
-            codigoLabel.Size = new System.Drawing.Size(53, 16);
+            codigoLabel.Size = new System.Drawing.Size(42, 13);
             codigoLabel.TabIndex = 0;
             codigoLabel.Text = "codigo:";
             // 
             // tituloLabel
             // 
             tituloLabel.AutoSize = true;
-            tituloLabel.Location = new System.Drawing.Point(52, 126);
-            tituloLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            tituloLabel.Location = new System.Drawing.Point(39, 102);
             tituloLabel.Name = "tituloLabel";
-            tituloLabel.Size = new System.Drawing.Size(38, 16);
+            tituloLabel.Size = new System.Drawing.Size(32, 13);
             tituloLabel.TabIndex = 2;
             tituloLabel.Text = "titulo:";
             // 
             // autorLabel
             // 
             autorLabel.AutoSize = true;
-            autorLabel.Location = new System.Drawing.Point(52, 158);
-            autorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            autorLabel.Location = new System.Drawing.Point(39, 128);
             autorLabel.Name = "autorLabel";
-            autorLabel.Size = new System.Drawing.Size(41, 16);
+            autorLabel.Size = new System.Drawing.Size(34, 13);
             autorLabel.TabIndex = 4;
             autorLabel.Text = "autor:";
             // 
             // editoraLabel
             // 
             editoraLabel.AutoSize = true;
-            editoraLabel.Location = new System.Drawing.Point(52, 190);
-            editoraLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            editoraLabel.Location = new System.Drawing.Point(39, 154);
             editoraLabel.Name = "editoraLabel";
-            editoraLabel.Size = new System.Drawing.Size(53, 16);
+            editoraLabel.Size = new System.Drawing.Size(42, 13);
             editoraLabel.TabIndex = 6;
             editoraLabel.Text = "editora:";
             // 
             // anoLabel
             // 
             anoLabel.AutoSize = true;
-            anoLabel.Location = new System.Drawing.Point(52, 222);
-            anoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            anoLabel.Location = new System.Drawing.Point(39, 180);
             anoLabel.Name = "anoLabel";
-            anoLabel.Size = new System.Drawing.Size(34, 16);
+            anoLabel.Size = new System.Drawing.Size(28, 13);
             anoLabel.TabIndex = 8;
             anoLabel.Text = "ano:";
             // 
@@ -141,46 +136,41 @@
             // codigoTextBox
             // 
             this.codigoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource1, "codigo", true));
-            this.codigoTextBox.Location = new System.Drawing.Point(116, 90);
-            this.codigoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.codigoTextBox.Location = new System.Drawing.Point(87, 73);
             this.codigoTextBox.Name = "codigoTextBox";
-            this.codigoTextBox.Size = new System.Drawing.Size(132, 22);
+            this.codigoTextBox.Size = new System.Drawing.Size(100, 20);
             this.codigoTextBox.TabIndex = 1;
             // 
             // tituloTextBox
             // 
             this.tituloTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource1, "titulo", true));
-            this.tituloTextBox.Location = new System.Drawing.Point(116, 122);
-            this.tituloTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tituloTextBox.Location = new System.Drawing.Point(87, 99);
             this.tituloTextBox.Name = "tituloTextBox";
-            this.tituloTextBox.Size = new System.Drawing.Size(132, 22);
+            this.tituloTextBox.Size = new System.Drawing.Size(100, 20);
             this.tituloTextBox.TabIndex = 3;
             // 
             // autorTextBox
             // 
             this.autorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource1, "autor", true));
-            this.autorTextBox.Location = new System.Drawing.Point(116, 154);
-            this.autorTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.autorTextBox.Location = new System.Drawing.Point(87, 125);
             this.autorTextBox.Name = "autorTextBox";
-            this.autorTextBox.Size = new System.Drawing.Size(132, 22);
+            this.autorTextBox.Size = new System.Drawing.Size(100, 20);
             this.autorTextBox.TabIndex = 5;
             // 
             // editoraTextBox
             // 
             this.editoraTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource1, "editora", true));
-            this.editoraTextBox.Location = new System.Drawing.Point(116, 186);
-            this.editoraTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.editoraTextBox.Location = new System.Drawing.Point(87, 151);
             this.editoraTextBox.Name = "editoraTextBox";
-            this.editoraTextBox.Size = new System.Drawing.Size(132, 22);
+            this.editoraTextBox.Size = new System.Drawing.Size(100, 20);
             this.editoraTextBox.TabIndex = 7;
             // 
             // anoTextBox
             // 
             this.anoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource1, "ano", true));
-            this.anoTextBox.Location = new System.Drawing.Point(116, 218);
-            this.anoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.anoTextBox.Location = new System.Drawing.Point(87, 177);
             this.anoTextBox.Name = "anoTextBox";
-            this.anoTextBox.Size = new System.Drawing.Size(132, 22);
+            this.anoTextBox.Size = new System.Drawing.Size(100, 20);
             this.anoTextBox.TabIndex = 9;
             // 
             // bindingNavigator1
@@ -208,7 +198,7 @@
             this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigator1.Size = new System.Drawing.Size(386, 25);
+            this.bindingNavigator1.Size = new System.Drawing.Size(290, 25);
             this.bindingNavigator1.TabIndex = 10;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -254,6 +244,7 @@
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
+            this.bindingNavigatorMovePreviousItem.Click += new System.EventHandler(this.bindingNavigatorMovePreviousItem_Click);
             // 
             // bindingNavigatorSeparator
             // 
@@ -266,7 +257,7 @@
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(65, 23);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Posição atual";
             // 
@@ -301,9 +292,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 326);
+            this.ClientSize = new System.Drawing.Size(290, 265);
             this.Controls.Add(this.bindingNavigator1);
             this.Controls.Add(codigoLabel);
             this.Controls.Add(this.codigoTextBox);
@@ -315,7 +306,6 @@
             this.Controls.Add(this.editoraTextBox);
             this.Controls.Add(anoLabel);
             this.Controls.Add(this.anoTextBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Consulta";
             this.Load += new System.EventHandler(this.Form1_Load);

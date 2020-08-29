@@ -25,7 +25,7 @@ namespace Navegando04
         static SpeechRecognitionEngine reconhecedor; // reconhecedor de voz
         SpeechSynthesizer resposta = new SpeechSynthesizer();// sintetizador de voz
 
-        public string[] listaPalavras = { "proximo","anterior","fechar","ultimo","primeiro"};
+        public string[] listaPalavras = { "proximo","anterior","fechar","ultimo","primeiro","leia"};
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -49,12 +49,14 @@ namespace Navegando04
             {
                 bindingNavigatorMoveNextItem.PerformClick();
                 resposta.SpeakAsync("O comando funcionou");
+                leia();
             }
 
             if (frase.Equals("anterior"))
             {
                 bindingNavigatorMovePreviousItem.PerformClick();
                 resposta.SpeakAsync("O comando funcionou");
+                leia();
             }
 
             if (frase.Equals("ultimo"))
@@ -74,6 +76,10 @@ namespace Navegando04
 
                 Thread.Sleep(000);
                 Close();
+            }
+            if (frase.Equals("leia"))
+            {
+                leia();
             }
         }
 
@@ -129,7 +135,26 @@ namespace Navegando04
 
         private void bindingNavigatorMoveNextItem_Click(object sender, EventArgs e)
         {
+            leia();
+        }
 
+        private void leia()
+        {
+            resposta.SpeakAsync("codigo");
+            resposta.SpeakAsync(codigoTextBox.Text);
+            resposta.SpeakAsync("Titulo");
+            resposta.SpeakAsync(tituloTextBox.Text);
+            resposta.SpeakAsync("Autor");
+            resposta.SpeakAsync(autorTextBox.Text);
+            resposta.SpeakAsync("Editora");
+            resposta.SpeakAsync(editoraTextBox.Text);
+            resposta.SpeakAsync("Ano");
+            resposta.SpeakAsync(anoTextBox.Text);
+        }
+
+        private void bindingNavigatorMovePreviousItem_Click(object sender, EventArgs e)
+        {
+            leia();
         }
     }
 }
